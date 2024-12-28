@@ -1,0 +1,25 @@
+{
+  "name": "testimonials-grid",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "Bento style testimonials grid section",
+  "scripts": {
+    "start": "npx parcel --host 0.0.0.0 --port 4321",
+    "build": "npm run cleanup && npx parcel --public-url ./",
+    "push-gh": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "cleanup": "rm -rf dist .parcel-cache"
+  },
+  "keywords": [
+    "web development",
+    "frontend mentor",
+    "css",
+    "sass",
+    "parcel",
+    "github pages"
+  ],
+  "author": "Jason Sherrick",
+  "license": "MIT",
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
