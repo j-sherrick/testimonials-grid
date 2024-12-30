@@ -1,4 +1,4 @@
-/* CSS Reset */
+/* This is a standard CSS Reset with some of my own preferences */
 
 /* Box sizing border-box for all elements */
 *,
@@ -38,14 +38,20 @@ menu,
   margin: 0;
 }
 
-/* Remove default hyperlink styles */
+/*
+  - Remove default hyperlink styles
+  - Inherit font styles for consistency
+*/
 a {
   text-decoration: none;
   color: inherit;
   font: inherit;
 }
 
-/* Remove default outline styles */
+/* 
+  - Remove default outline styles 
+  - Inherit font styles for consistency
+*/
 button,
 input,
 textarea,

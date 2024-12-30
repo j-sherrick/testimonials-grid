@@ -20,6 +20,7 @@
   "author": "Jason Sherrick",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^3.4.2",
     "push-dir": "^0.4.1"
   }
 }
