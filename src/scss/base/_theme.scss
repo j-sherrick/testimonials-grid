@@ -19,9 +19,9 @@
   --tg-font-body-size: 13px;
 
   /* Heading and Subheading Colors */
-  --tg-heading-dark: var(--tg-color-grayblue);
-  --tg-subhead-dark: hsa(var(--tg-value-grayblue) / 0.5); /* 50% opacity */
+  --tg-text-dark: var(--tg-color-grayblue);
+  --tg-subtext-dark: hsla(var(--tg-value-grayblue), 50%); /* 50% opacity */
 
-  --tg-heading-light: var(--tg-color-lightgb);
-  --tg-subhead-light: hsla(var(--tg-value-lightgb) / 0.5); /* 50% opacity */
+  --tg-text-light: var(--tg-color-lightgb);
+  --tg-subtext-light: hsla(var(--tg-value-lightgb), 50%); /* 50% opacity */
 }

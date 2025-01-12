@@ -1,24 +1,81 @@
 .tg-card {
+  padding: 2rem 2.25rem 2.25rem 2.25rem;
+  border-radius: .5rem;
 
   &__header {
+    display: flex;
+    img {
+      border-radius: 50%;
+    }
+    h2 {
+      margin-left: 17px;
+      span {
+        display: block;
+      }
+    }
   }
 
   &__testimonial {
-
+    strong {
+      display: block;
+      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
   }
 
   &:nth-child(2) {
-  }
+    background-color: var(--tg-color-violet);
+    color: var(--tg-color-lightgray);
+    h2 {
+      color: var(--tg-text-light);
+      span {
+        color: var(--tg-subtext-light);
+      }
+    }
 
+    blockquote strong {
+      margin-bottom: 3rem;
+    }
+  }
+  
   &:nth-child(3) {
+    background-color: var(--tg-color-grayblue);
+    color: var(--tg-text-light);
+    h2 {
+      span {
+        color: var(--tg-subtext-light);
+      }
+    }
   }
 
   &:nth-child(4) {
+    background-color: var(--tg-color-white);
+    color: Var(--tg-text-dark);
+    h2 {
+      span {
+        color: var(--tg-subtext-dark);
+      }
+    }
   }
 
   &:nth-child(5) {
+    background-color: var(--tg-color-blackblue);
+    color: var(--tg-text-light);
+    h2 {
+      span {
+        color: var(--tg-subtext-light);
+      }
+    }
+
   }
-  
+
   &:nth-child(6) {
+    background-color: var(--tg-color-white);
+    color: Var(--tg-text-dark);
+    h2 {
+      span {
+        color: var(--tg-subtext-dark);
+      }
+    }
   }
 }
