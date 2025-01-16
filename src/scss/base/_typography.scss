@@ -1,16 +1,18 @@
-html {
-  font-size: var(--tg-font-body-size);
-}
-
 body {
+  font-size: var(--tg-font-body-size);
   font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--tg-color-grayblue);
 }
 
 .tg-card {
   &__header {
     h2 {
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 0.8125rem;
+
+      span {
+        font-size: 0.6875rem;
+      }
     }
   }
 

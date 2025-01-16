@@ -1,6 +1,7 @@
 .tg-card {
-  padding: 26px 32px 32px 32px;
+  padding: 26px 32px;
   border-radius: 0.5rem;
+  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--tg-value-grayblue), 0.25);
 
   &__header {
     display: flex;
@@ -26,7 +27,7 @@
     }
   }
 
-  &:nth-child(2) {
+  &:nth-child(1) {
     background-color: var(--tg-color-violet);
     background-image: url("../images/bg-pattern-quotation.svg");
     background-position: calc(100% - 24px) 0;
@@ -54,7 +55,7 @@
     }
   }
 
-  &:nth-child(3) {
+  &:nth-child(2) {
     background-color: var(--tg-color-grayblue);
     color: var(--tg-text-light);
     h2 {
@@ -64,7 +65,7 @@
     }
   }
 
-  &:nth-child(4) {
+  &:nth-child(3) {
     background-color: var(--tg-color-white);
     color: Var(--tg-text-dark);
     h2 {
@@ -74,7 +75,7 @@
     }
   }
 
-  &:nth-child(5) {
+  &:nth-child(4) {
     background-color: var(--tg-color-blackblue);
     color: var(--tg-text-light);
     h2 {
@@ -82,9 +83,13 @@
         color: var(--tg-subtext-light);
       }
     }
+    img {
+      box-sizing: content-box;
+      border: 2px solid var(--tg-color-violet);
+    }
   }
 
-  &:nth-child(6) {
+  &:nth-child(5) {
     background-color: var(--tg-color-white);
     color: Var(--tg-text-dark);
     h2 {
